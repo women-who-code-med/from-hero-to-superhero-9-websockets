@@ -1,0 +1,8 @@
+### Sign in
+POST {{host}}/auth/login
+Content-Type: application/json
+
+{
+  "username": "habidmanzur@outlook.com",
+  "password": "hemrva"
+}

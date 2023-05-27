@@ -1,0 +1,31 @@
+### Get All Users
+GET {{host}}/v1/users
+Content-Type: application/json
+Authorization: Bearer {{token}}
+Accept: application/json
+
+### Get User by Id 1
+GET {{host}}/v1/users/2
+Content-Type: application/json
+Authorization: Bearer {{token}}
+Accept: application/json
+
+
+### Delete User by Id 1
+DELETE {{host}}/v1/users/2
+Content-Type: application/json
+Authorization: Bearer {{token}}
+Accept: application/json
+
+### Create User
+POST {{host}}/v1/users
+Content-Type: application/json
+Authorization: Bearer {{token}}
+Accept: application/json
+
+{
+  "email": "habidmanzur@outlook.com",
+  "password": "hemrva",
+  "firstName": "John",
+  "lastName": "Doe"
+}
